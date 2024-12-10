@@ -7,7 +7,7 @@ Clone the repo using git
 
 HTTPS
 
-    git clone 
+    git clone https://github.com/HarryNguyen6678/SimpleSnakeGame.git
 
 or simple download the .zip file
 
