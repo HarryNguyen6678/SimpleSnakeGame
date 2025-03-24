@@ -148,10 +148,10 @@ public class GamePannel extends JPanel implements ActionListener {
         @Override
         public void keyPressed(KeyEvent e) {
             switch (e.getKeyCode()) {
-                case KeyEvent.VK_UP -> snake.setDirection('U');
-                case KeyEvent.VK_DOWN -> snake.setDirection('D');
-                case KeyEvent.VK_LEFT -> snake.setDirection('L');
-                case KeyEvent.VK_RIGHT -> snake.setDirection('R');
+                case KeyEvent.VK_W -> snake.setDirection('U');
+                case KeyEvent.VK_S -> snake.setDirection('D');
+                case KeyEvent.VK_A -> snake.setDirection('L');
+                case KeyEvent.VK_D -> snake.setDirection('R');
                 case KeyEvent.VK_SPACE -> {
                     if (waitingToStart) {
                         startGame();
